@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    height: 1000px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: #E6EFF6;
+}
+
+.main-card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    width: 70%;
+    max-width: 620px;
+    height: 455px;
+    margin: auto;
+    top: 300px;
+}
+
+.main-card, .signup-button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-section {
+    position: absolute;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.join {
+    height: 45%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.join h2{
+    color: #29b3b0;
+}
+
+.join h3{
+    color: #BFDF32;
+}
+
+.join p {
+    color: #999CA3;
+    line-height: 0.7rem;
+
+}
+  
+.why-us, .subscription {
+    bottom: 0px;
+    width: 50%;
+    height: 55%;
+    color: #FFFFFF;
+}
+
+.subscription {
+    left: 0px;
+    background-color: #29b3b0;
+}
+
+#subscription-lower-paragraph {
+    position: absolute;
+    bottom: 37.5%;
+}
+
+.subscription-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+  
+.subscription-frequency {
+    color: #f2ffff98;
+}
+
+  
+.signup-button {
+    position: absolute;
+    width: 75%;
+    height: 20%;
+    left: 50%;
+    bottom: 0%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: #BFDF32;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+}
+  
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+.why-us {
+    right: 0px;
+    background-color: #37c2bf;
+
+}
+
+.why-us p {
+    font-size: 0.8rem;
+    color: #ffffffda;
+    line-height: 1.25rem;
+}
