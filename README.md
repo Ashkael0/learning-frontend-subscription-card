@@ -1,4 +1,4 @@
 # learning-frontend-subscription-card
-Trying to complete the frontendmentor task.
+Frontendmentor tasks.
 
 The tasks url is https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub
